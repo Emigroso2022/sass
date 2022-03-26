@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+    <!-- para el navbar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>DashCronos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="container-fluid">
+                <h5 class="text-light md-0 ">Cronos</h5>
+               
+                <a class="navbar-brand" href="#"><img src="../assets/img/logo.png" class="logosClas"
+                        alt="logo sitio"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">Login</a>
+                        </li>
+                        </li>
+                </div>
+                
+            </div>
+           
+        </nav>
+
+
+    </header>
+    <main>
+       
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/img/baner01.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/banner025.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/bas04.png" class="d-block w-100" alt="...">
+              </div>
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      
+    
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-6 p-4 border rounded mx-auto">
+                    <h3 class="mb-4">Login </h3>
+                    <form action="">
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text">👱‍♂️</span>
+                            <input type="Nombre" class="form-control" placeholder="Usuario" />
+                        </div>
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text">🔑</span>
+                            <input type="password" class="form-control" placeholder="Contraseña" />
+                        </div>
+
+                        <div class="d-grid d-md-inline">
+                            <button type="button" class="btn btn-success">Ingresar</button>
+                        </div>
+                        <div><button type="button" class="btn btn-danger position-absolute ">Cancelar</button></div>
+                        <div><button type="button" class="btn btn-warning">Info.</button></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </section>
+
+        <section>
+            <section class="container mt-5">
+                <div class="position-relative m-4">
+                    <div class="progress" style="height: 1px;">
+                      <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">1</button>
+                    <button type="button" class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">2</button>
+                    <button type="button" class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill" style="width: 2rem; height:2rem;">3</button>
+                  </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-6 p-4 border rounded mx-auto">
+                        <h3 class="mb-4">Crea tu cuenta </h3>
+                        <form action="">
+                            <div class="mb-3 input-group">
+                                <span class="input-group-text">✔</span>
+                                <input type="Nombre" class="form-control" placeholder="Nombre" />
+                            </div>
+                            <div class="mb-3 input-group">
+                                <span class="input-group-text">✔</span>
+                                <input type="Apellido" class="form-control" placeholder="Apellido" />
+                            </div>
+                            <div class="mb-3 input-group">
+                                <span class="input-group-text">👱‍♂️</span>
+                                <input type="Usuario" class="form-control" placeholder="Usuario" />
+                            </div>
+                            <div class="mb-3 input-group">
+                                <span class="input-group-text">💕</span>
+                                <select   type="Sexo"class="form-control" id="exampleFormControlSelect1">
+                                    <option>Masculino</option>
+                                    <option>Femenino</option>
+                                    <option>Otro</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 input-group">
+                                <span class="input-group-text">📧</span>
+                                <input type="email" class="form-control" placeholder="Email" />
+                            </div>
+                            <div class="mb-3 input-group">
+                                <span class="input-group-text">🔑</span>
+                                <input type="password" class="form-control" placeholder="Contraseña" />
+                            </div>
+
+                            <div class="d-grid d-md-inline">
+                                <button type="submit" class="btn btn-primary mt-2">
+                                    Registrar
+                                </button>
+                            </div>
+                            <div><button type="button" class="btn btn-danger position-absolute ">Cancelar</button></div>
+                            <div><button type="button" class="btn btn-warning">Info.</button></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section>
+           
+
+       
+    </main>
+    <footer>
+        <section>
+          <div>
+            <span>Facebook </span>
+            <span> Instalgram </span>
+          </div>
+          
+        </section>
+        </section>
+        <section>
+          <div>
+            <span>Copyright © Todos los derechos reservados - DaskCronos - 2023..</span>
+          </div>
+        </section>
+      </footer>
+</body>
+
+</html>
